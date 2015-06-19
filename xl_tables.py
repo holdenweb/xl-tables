@@ -20,6 +20,7 @@ html_template = """\
 """
 
 def extract_tables(psheet, extend=True):
+    global row_counts
     psheet.index = range(len(psheet)) # This may no longer be necessary
     sheet_header = psheet.iloc[1], [1]
     # Occasional random cells have odd characters in them. I
@@ -94,6 +95,7 @@ Sheet {}: {} tables""".format(sheet_name, len(tables)))
                 f.write(html_out)
         tot_tbls += len(tables)
         all_tables[sheet_name] = tables
+        print(row_counts)
     print("""
 =====================================================
     """)
