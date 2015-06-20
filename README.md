@@ -40,5 +40,7 @@ Please try the software, and if you would like it to do more, or experience prob
 [post a note about them](https://github.com/holdenweb/xl-tables/issues) - look for the
 green "New Issue" button - and I'll respond.
 
+## Notes for Developers
 
-
+The project also includes a notebook in which many experiments are recorded (`Investigations.ipynb`) in case
+anyone should find some usable code in there.
