@@ -2,14 +2,14 @@
 
 Thank you for your interest in this project.
 
-The xltables module attempts to extract tabular information from Excel spreadsheets and make it available
+The `xltables` module attempts to extract tabular information from Excel spreadsheets and make it available
 as usable computational data in the form of Pandas DataFrames (which can in turn be transformed into many
 other formats).
 
 It has been built initially to transform one particular spreadsheet, historical data on UK doctors' salaries.
 This spreasheet is included as a part of the sample data, and was extracted from
-[this file](http://www.hscic.gov.uk/catalogue/PUB12625/gpearnextime.xls, whose
-description (and the link to the data file) can be found
+[this file](http://www.hscic.gov.uk/catalogue/PUB12625/gpearnextime.xls),
+whose description (and the link to the data file) can be found
 [here](http://www.hscic.gov.uk/searchcatalogue?productid=13317&q=title%3a%22GP+Earnings+and+Expenses%22&sort=Relevance&size=10&page=1#top)
 
 I was interested principally in determining how difficult it would be to extract the data,
