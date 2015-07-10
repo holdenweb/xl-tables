@@ -69,14 +69,18 @@ def extract_tables(psheet, extend=True):
         tables.append(table)
     return sheet_header, dict(zip(titles, tables))
 
+pwb = read_excel("data/gpearnextime.xlsx", sheetname=None)
+ws = pwb["8. GPMS Distribution"]
+h, tt = extract_tables(ws)
+
 if __name__ == "__main__":
     import sys
     # adul-crit-care-data-eng-apr-13-mar-14-tab.xls
     pd.options.display.float_format = '{:,.0f}'.format
-    #pwb = read_excel("data/gpearnextime.xlsx", sheetname=None)
-    #wb = xl.load_workbook("data/gpearnextime.xlsx")
-    pwb = read_excel("data/adul-crit-care-data-eng-apr-13-mar-14-tab.xlsx", sheetname=None)
-    wb = xl.load_workbook("data/adul-crit-care-data-eng-apr-13-mar-14-tab.xlsx")
+    pwb = read_excel("data/gpearnextime.xlsx", sheetname=None)
+    wb = xl.load_workbook("data/gpearnextime.xlsx")
+    #pwb = read_excel("data/adul-crit-care-data-eng-apr-13-mar-14-tab.xlsx", sheetname=None)
+    #wb = xl.load_workbook("data/adul-crit-care-data-eng-apr-13-mar-14-tab.xlsx")
     tot_tbls = 0
     all_tables = {}
     for sheet_name in wb.sheetnames:
