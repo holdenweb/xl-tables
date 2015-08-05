@@ -19,7 +19,9 @@ fact-based decision making.
 
 Since it turned out to involve a significant effort, this made me realize that it might be
 useful to others as some sort of starting point and explanation of some of the necessary
-techniques as a starting point for their own projects.
+techniques as a starting point for their own projects. I have therefore left most of my
+exploratory meanderings in the `Invitations.ipynb` Jupyter notebook in hopes that they may
+guide others more reliably along a still not yet well-worn path.
 
 ## Architecture
 
@@ -34,13 +36,10 @@ be produced to allow readers to realize the potential of the technology.
 
 There is a lot of work that can be done to improve the range of
 table patterns that the routines can recognize.
-I shall be posting some issues to identify the (many) current weaknesses of the system.
+I shall be happy for readers to post issues to identify the (many) current weaknesses of the system.
+This will help set future directions for the project, which is sorely in need of additional effort.
 The thing this project needs more than anything else is input from other people, hence its appearance on Github.
-Please try the software, and if you would like it to do more, or experience problems,
-[post a note about them](https://github.com/holdenweb/xl-tables/issues) - look for the
+Please try the software. If you would like it to do more, or experience problems,
+please [post an issue](https://github.com/holdenweb/xl-tables/issues) - look for the
 green "New Issue" button - and I'll respond.
 
-## Notes for Developers
-
-The project also includes a notebook in which many experiments are recorded (`Investigations.ipynb`) in case
-anyone should find some usable code in there.
