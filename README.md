@@ -6,18 +6,22 @@ The `xltables` module attempts to extract tabular information from Excel spreads
 as usable computational data in the form of Pandas DataFrames (which can in turn be transformed into many
 other formats).
 
-It has been built initially to transform one particular spreadsheet, historical data on UK doctors' salaries.
-This spreasheet is included as a part of the sample data, and was extracted from
+It was built initially to transform one particular spreadsheet, historical data on UK doctors' salaries.
+This spreadsheet is included as a part of the sample data, and was extracted from
 [this file](http://www.hscic.gov.uk/catalogue/PUB12625/gpearnextime.xls),
 whose description (and the link to the data file) can be found
 [here](http://www.hscic.gov.uk/searchcatalogue?productid=13317&q=title%3a%22GP+Earnings+and+Expenses%22&sort=Relevance&size=10&page=1#top)
 
-Not mentioned in the presentation was the real point of the project, a module called
-`xltables.py` which caan extract tables of the same format from any wokrbook opened
-with `openpyxl`.
+The first announcement of this repository followed a 25-minute presentation to the
+PyData London group on 4th AUgust 2015.
+Not mentioned in the presentation was the real point of the project, the module
+that can extract tables of the same format from any workbook opened
+with `openpyxl`. It has a couple of features that I didn't have time to discuss in
+the presentation. It may be tht there aren't many other spreadsheets with similarly
+structured data, but that would surprise me.
 
 I was interested principally in determining how difficult it would be to extract the data,
-since many "open data" policies similarly result in the production of data in computationally
+since many “open data” policies similarly result in the production of data in computationally
 intractable forms. This stands in the way of progress in areas like data-based journalism and in
 fact-based decision making.
 
@@ -26,6 +30,14 @@ useful to others as some sort of starting point and explanation of some of the n
 techniques as a starting point for their own projects. I have therefore left most of my
 exploratory meanderings in the `Invitations.ipynb` Jupyter notebook in hopes that they may
 guide others more reliably along a still not yet well-worn path.
+
+The presentation slides can be found in the `slides` subdirectory. For them to work as a
+`reveal` presentation you should copy or link a `reveal.js` directory into the same
+directory, or move the HTML file to a directory containing `reveal`. Note that due to
+a version incompatibility you mey need to use version 2.6.2 or reveal, available as a
+[zip file](https://github.com/hakimel/reveal.js/archive/2.6.2.zip) or a [compressed
+tar file](https://github.com/hakimel/reveal.js/archive/2.6.2.tar.gz), depending on how
+recent your Jupyter install is.
 
 ## Architecture
 
