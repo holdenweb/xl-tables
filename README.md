@@ -12,9 +12,13 @@ This spreasheet is included as a part of the sample data, and was extracted from
 whose description (and the link to the data file) can be found
 [here](http://www.hscic.gov.uk/searchcatalogue?productid=13317&q=title%3a%22GP+Earnings+and+Expenses%22&sort=Relevance&size=10&page=1#top)
 
+Not mentioned in the presentation was the real point of the project, a module called
+`xltables.py` which caan extract tables of the same format from any wokrbook opened
+with `openpyxl`.
+
 I was interested principally in determining how difficult it would be to extract the data,
 since many "open data" policies similarly result in the production of data in computationally
-intractable forms. This stands in the way of progress in data-based journalism and also in
+intractable forms. This stands in the way of progress in areas like data-based journalism and in
 fact-based decision making.
 
 Since it turned out to involve a significant effort, this made me realize that it might be
