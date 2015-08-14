@@ -12,9 +12,12 @@ This spreasheet is included as a part of the sample data, and was extracted from
 whose description (and the link to the data file) can be found
 [here](http://www.hscic.gov.uk/searchcatalogue?productid=13317&q=title%3a%22GP+Earnings+and+Expenses%22&sort=Relevance&size=10&page=1#top)
 
-Not mentioned in the presentation was the real point of the project, a module called
-`xltables.py` which caan extract tables of the same format from any wokrbook opened
-with `openpyxl`.
+The first announcement of this repository followed a 25-minute presentation to the
+PyData London group on 4th AUgust 2015.
+Not mentioned in the presentation was the real point of the project, the module
+that can extract tables of the same format from any workbook opened
+with `openpyxl`. It has a couple of features that I didn't have time to discuss in
+the presentation.
 
 I was interested principally in determining how difficult it would be to extract the data,
 since many "open data" policies similarly result in the production of data in computationally
